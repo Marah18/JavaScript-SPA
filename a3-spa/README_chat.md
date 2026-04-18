@@ -55,5 +55,5 @@ The API-key
 Use the following API key.
 
 ```
-eDBE76deU7L0H9mEBgxUKVR0VCnq0XBd
+xx
 ```

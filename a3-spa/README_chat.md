@@ -24,9 +24,13 @@ You connect to the server via web sockets and send messages using the json forma
   "data" : "The message text is sent using the data property",
   "username": "MyFancyUsername",
   "channel": "my, not so secret, channel",
-  "key": "A api-key. Found when logged in on the course webpage"
+  "key": "YOUR_API_KEY_HERE
 }
 ```
+
+
+Security notice: A previously exposed API key has been revoked. 
+If you cloned this repository earlier, make sure you are not using any old keys.
 
 The properties type, data, username and key are mandatory when sending a message to the server. The properties type, data and username will always be present when you receive a message from the server. Additionally, all properties sent from one user will be echoed to all receiving clients.
 
@@ -49,11 +53,3 @@ Your application can simply ignore those messages completly.
 
 
 
-The API-key
-------------------
-
-Use the following API key.
-
-```
-xx
-```
